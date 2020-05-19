@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6584700a7dfae2b6b6e2ad8bb81f9921",
+    "revision": "bea35f18aa0aacbe88a6df4b2addd1e9",
     "url": "/warungmu/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/warungmu/static/css/2.8919110f.chunk.css"
   },
   {
-    "revision": "5127b03755c66176dc3e",
+    "revision": "5ae46d0027188b42d3ef",
     "url": "/warungmu/static/css/main.54ea6357.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/warungmu/static/js/2.c0f45b57.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5127b03755c66176dc3e",
-    "url": "/warungmu/static/js/main.10e630f8.chunk.js"
+    "revision": "5ae46d0027188b42d3ef",
+    "url": "/warungmu/static/js/main.455406ae.chunk.js"
   },
   {
     "revision": "dcbba3689391da54ce9b",

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/warungmu/static/css/main.54ea6357.chunk.css",
-    "main.js": "/warungmu/static/js/main.10e630f8.chunk.js",
-    "main.js.map": "/warungmu/static/js/main.10e630f8.chunk.js.map",
+    "main.js": "/warungmu/static/js/main.455406ae.chunk.js",
+    "main.js.map": "/warungmu/static/js/main.455406ae.chunk.js.map",
     "runtime-main.js": "/warungmu/static/js/runtime-main.8607b527.js",
     "runtime-main.js.map": "/warungmu/static/js/runtime-main.8607b527.js.map",
     "static/css/2.8919110f.chunk.css": "/warungmu/static/css/2.8919110f.chunk.css",
     "static/js/2.c0f45b57.chunk.js": "/warungmu/static/js/2.c0f45b57.chunk.js",
     "static/js/2.c0f45b57.chunk.js.map": "/warungmu/static/js/2.c0f45b57.chunk.js.map",
     "index.html": "/warungmu/index.html",
-    "precache-manifest.02c06bba802cff82e3254e5694e8045d.js": "/warungmu/precache-manifest.02c06bba802cff82e3254e5694e8045d.js",
+    "precache-manifest.a3387dc9ff6af604099fc317af6f57af.js": "/warungmu/precache-manifest.a3387dc9ff6af604099fc317af6f57af.js",
     "service-worker.js": "/warungmu/service-worker.js",
     "static/css/2.8919110f.chunk.css.map": "/warungmu/static/css/2.8919110f.chunk.css.map",
     "static/css/main.54ea6357.chunk.css.map": "/warungmu/static/css/main.54ea6357.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.8919110f.chunk.css",
     "static/js/2.c0f45b57.chunk.js",
     "static/css/main.54ea6357.chunk.css",
-    "static/js/main.10e630f8.chunk.js"
+    "static/js/main.455406ae.chunk.js"
   ]
 }
