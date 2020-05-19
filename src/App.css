@@ -1,38 +1,197 @@
-.App {
+.container {
+  width: 100%;
+  max-width: 500px;
+  padding:auto 15px;
+  background-color: #fff;
+}
+
+.card {
+  margin: 0;
+  padding:0;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.card:hover {
+  opacity: 0.8;
+}
+
+.logo img {
+  width:150px;
+}
+
+.card-image img {
+  height: 130px;
+  background-size: cover;  
+}
+
+.card-image-paling-laku img {
+  height: 130px;
+  width: 100%;
+  object-fit: cover;  
+}
+
+.card-image-paling-laku {
+  width: 200px;
+}
+
+.card-content p {
+  font-family:"Poppins","Roboto",sans-serif;
+  color: #4f4f4f;
+}
+
+.card .card-content {
+  padding :10px;
+}
+
+.header {
+  padding-top:15px;
+}
+
+.category {
+  padding: auto 15px;
+}
+
+.category p {
+  weight: bold;
+  padding-left: 15px;
+}
+
+.category-icons {
+  vertical-align:middle;
+}
+
+.category-icons img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50px;
+  
+}
+
+.category-nama {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.box-category {
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 1px 2px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  transition: 0.3s;
+  padding:15px;
+  margin-top:10px;
+}
+  
+.box-category:hover {
+  transform: translate(0, -5px);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.produk-pilihan {
+  margin-top:15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.produk-pilihan span {
+  margin-left:15px;
+}
+.produk-pilihan-box {
+  margin-top: 10px;
+  height: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 900px;
+  justify-content: space-between;
+}
+
+.banner-produk-pilihan {
+  max-width: 350px;
+}
+
+.trolley img {
+  width: 30px;
+  float: right;
+}
+
+.slick-slider {
+  margin-bottom:15px;
+}
+
+.slick-dots {
+  bottom: -5px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgb(223, 200, 0)
+}
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #888888
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  padding: 5px 15px;
+}
+
+.icon {
+  height: 46px;
+  padding: 10px;
+  background: rgb(255, 230, 0);
   color: white;
+  min-width: 45px;
+  text-align: center;
+  margin-right: 3px;
 }
 
-.App-link {
-  color: #61dafb;
+.input-field {
+  flex:1;
+  padding: 10px;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type=text]:not(.browser-default) {
+  border: 1px solid rgb(231, 227, 0);
+  border-radius: 4px;
+  padding-left: 5px;
+}
+
+.card-image {
+  position: relative;
+}
+
+.promo {
+  background-color: rgb(255, 187, 0);
+  color:#ffff;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  padding:5px;
+  border-bottom-right-radius: 10px ;
+}
+
+.line {
+  widows: 100px;
+  margin: 3px 15px;
+  border: 0.3px solid rgb(236, 236, 236);
+}
+
+.warung {
+  margin-top: 15px;
+}
+
+.warung p {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.img-warung {
+  width: 100%;  
+}
+.img-warung img {
+  width:100%;
+  object-fit: cover;
+  border-radius: 20px;
 }
